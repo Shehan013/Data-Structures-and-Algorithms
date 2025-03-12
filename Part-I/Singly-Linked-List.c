@@ -159,7 +159,6 @@ void delete_pos(){
             }
         }
     }
-
 }
 
 void main(){
