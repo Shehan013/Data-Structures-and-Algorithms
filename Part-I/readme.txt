@@ -65,3 +65,41 @@ O(n) - Linear time     - grows proportionally with input size.
 O(n^2) - Quadratic time
 O(log n) - Logarithmic time
 
+
+Stacks
+
+A fundamental data structure that follows, Last In First Out(LIFO) principle.
+We can only access the top most element in a stack.
+
+There are two types:
+     1. Static  (bounded stack)
+                If a static stack is full, it is called to be in an Overflow State.
+                Implement using an Array in C language.
+     2. Dynamic 
+                Implement using a Linked List.
+
+Why stacks?
+
+1. LIFO Property
+2. Expression Evaluation
+3. Function call management
+4. Undo mechanisms
+5. Backtracking algorithms
+6. Memory management
+7. Parsing and syntax checking
+
+Stack Operations:
+
+Push         : This operation adds an element to the top of the stack
+Pop          : This element removes the top element from the stack
+Peek(or Top) : This operation retrieves the top element of the stack without removing it.
+IsEmpty      : This operation checks if the stack is empty.
+IsFull       : This operation checks if the stack is full.
+
+
+
+
+
+
+
+
