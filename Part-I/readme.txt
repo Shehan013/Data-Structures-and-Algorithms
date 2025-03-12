@@ -49,7 +49,8 @@ clarification for scanf("%d", &temp->data)
 
 &temp means the address of temp itself, and it is not what we need.
 temp stores an address, but temp->data is an actual integer inside the node.
-For the scanf, it needs memory address and that's why we use "&temp->data".
+For the scanf, it needs memory address and that's why we use "&temp->data" to give the memory address of the data field.
+temp->data accesses the data field inside the node.
 
 
 
