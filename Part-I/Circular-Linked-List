@@ -7,6 +7,7 @@ struct node{
 };
 
 struct node* head = NULL;
+struct node* tail = NULL;
 
 void insert_begin(){
     struct node* temp = (struct node*)malloc(sizeof(struct node));
@@ -17,6 +18,13 @@ void insert_begin(){
     if( head == NULL)
     {
         head = temp;
+        tail = temp;
         temp->next = head;
+    }
+    else
+    {
+        temp->next = head;
+        head = temp;
+        tail->next = head
     }
 }

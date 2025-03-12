@@ -52,5 +52,16 @@ temp stores an address, but temp->data is an actual integer inside the node.
 For the scanf, it needs memory address and that's why we use "&temp->data" to give the memory address of the data field.
 temp->data accesses the data field inside the node.
 
+Complexity Analysis
 
+We use Big O notation for that. 
+
+Big O notation describes how the run time(or memory usage) of an algorithm grows as the input size increases.
+
+Common Big O notations
+
+O(1) - Constant time   - does not depend on input size(fastest)
+O(n) - Linear time     - grows proportionally with input size.
+O(n^2) - Quadratic time
+O(log n) - Logarithmic time
 
