@@ -1,0 +1,63 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+struct node{
+    int data;
+    struct node* next;
+};
+
+struct node* head = NULL;
+
+void push();
+int pop();
+int peek();
+bool isEmpty();
+
+void push(){
+    struct node* ptr = (struct node*)malloc(sizeof(struct node));
+    printf("Enter the data: ");
+    scanf("%d", &ptr->data);
+
+    if(head == NULL){
+        head = ptr;
+        ptr->next = NULL;
+    }
+    else{
+        ptr->next = head;
+        head = ptr;
+    }
+    free(ptr);
+}
+
+int pop(){
+    if(isEmpty()){
+        printf("Stack is empty\n");
+        return -1;
+    }
+    else{
+        struct node* ptr = head;
+        head = head->next;
+        int data = ptr->data;
+        free(ptr);
+        return data;
+    }
+}
+
+int peek(){
+    if(isEmpty()){
+        printf("Stack is empty\n");
+        return -1;
+    }
+    else{
+        return head->data;
+    }
+}
+
+bool isEmpty(){
+    return head == NULL;
+}
+
+void main(){
+    
+}

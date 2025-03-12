@@ -97,6 +97,12 @@ IsEmpty      : This operation checks if the stack is empty.
 IsFull       : This operation checks if the stack is full.
 
 
+Linked List based implementation of Stacks
+
+The top of the stack corresponds to the first node of the linked list.
+Pushing an element involves creating a new node and making it the first node of the linked list.
+Popping an element involves removing the first node of the linked list.
+
 
 
 
