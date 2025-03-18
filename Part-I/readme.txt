@@ -104,6 +104,44 @@ Pushing an element involves creating a new node and making it the first node of 
 Popping an element involves removing the first node of the linked list.
 
 
+Queues
+
+A fundamental data structure that follows the First In, First Out(FIFO) principle.
+
+We can only access the right most element in a queue.
+
+There are tow types of Queue data structures : Static and Dynamic
+
+1. Static Queue (bounded queue) has a bounded capacity.
+
+
+Why Queue
+
+1.First In, First Out(FIFO) Behavior(Need to be processed in the order they were added.)
+2.Simple and efficient operations
+3.Straightforward interface
+4.Predictable Performance
+5.Synchronization and Concurrency
+6.Memory Management
+
+Queue Operations
+
+Enqueue - Adds an element to the rear of the queue.
+Dequeue - Removes an element from the front of the queue.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
