@@ -36,3 +36,19 @@ Code
 
 Task is to merge two subarrays A[p..q] and A[q+1..r] to create a sorted array A[p..r].
 
+Time Complexity:
+
+Splitting the array : O(log n)   Here base of log n = 2, and log n is the number of levels/steps that follow to split the array.
+
+Merging subarrays : O(n) at each level with log n levels.
+
+Total time complexity : O(n log n)
+
+Time complexity in Best/ Average and Worst cases = O(n log n)
+
+Space Complexity : O(n)
+      Refers to the total amount of memory an algorithm needs to run.
+Merge sort needs extra space, so it is less memory efficient than quick sort.
+
+Merge Sort is stable.
+
