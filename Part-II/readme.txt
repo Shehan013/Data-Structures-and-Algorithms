@@ -9,7 +9,7 @@ Common Sorting Algorithms:
                   (consider for Ascending) Select the minimum element and swap it with the first element, likewise continue until sorted.
 
 3. Bubble Sort - 
-                  (consider for Ascending) Start from first two elements, compare and swap only id needed, then second and third elements, compare and swap only if needed. This will move the highest value to the end of the list, but others are not sorted. So follow the same process until sorted.
+                  (consider for Ascending) Start from first two elements, compare and swap only if needed, then second and third elements, compare and swap only if needed. This will move the highest value to the end of the list, but others are not sorted. So follow the same process until sorted.
 
 4. Merge Sort -
                   It follows divide-and-conquer paradigm.
